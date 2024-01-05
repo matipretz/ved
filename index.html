@@ -1,5 +1,5 @@
 <!-- LANDING PAGE -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
 <!-- HEAD -->
 <head>
@@ -37,7 +37,7 @@
   <link rel="stylesheet" href="css/custom.css">
 
 </head>
-<body>
+<body class="container-fluid">
   <!-- Toggler -->
   <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
     <symbol id="check2" viewBox="0 0 16 16">
@@ -116,39 +116,37 @@
 
   <!-- Nav -->
   <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
-    <div class="container">
-      <a class="navbar-brand d-md-none" href="#">
-        VED
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
-        aria-controls="#offcanvas" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="#offcanvasLabel">Aperture</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav flex-grow-1 justify-content-between">
-
-            <li class="nav-item"><a class="nav-link" href="#">Tour</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Enterprise</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-            <li class="nav-item"><a class="btn btn-success"
-                href="https://api.whatsapp.com/send/?phone=5491134974022&text&type=phone_number&app_absent=0"
-                target="_blank">
-                <svg class="bi" width="24" height="24">
-                  <use xlink:href="#wa" />
-                </svg>
-              </a></li>
-          </ul>
-        </div>
+    <a class="navbar-brand d-md-none" href="#">
+      VED
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+      aria-controls="#offcanvas" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="#offcanvasLabel">Aperture</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav flex-grow-1 justify-content-between">
+          <li class="nav-item"><a class="nav-link" href="#">Tour</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Enterprise</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="btn btn-success"
+              href="https://api.whatsapp.com/send/?phone=5491134974022&text&type=phone_number&app_absent=0"
+              target="_blank">
+              <svg class="bi" width="24" height="24">
+                <use xlink:href="#wa" />
+              </svg>
+            </a></li>
+        </ul>
       </div>
     </div>
+
   </nav>
 
   <main>
@@ -175,7 +173,8 @@
             <h2 class="display-5">Motos</h2>
             <p class="lead">Asegura tu moto y olvidate de los problemas.</p>
           </div>
-          <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+          <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+          </div>
         </div>
       </div>
 
@@ -185,7 +184,8 @@
             <h2 class="display-5">Hogar</h2>
             <p class="lead">Tu casa, segura.</p>
           </div>
-          <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+          <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+          </div>
         </div>
         <div class="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div class="my-3 py-3">
@@ -203,14 +203,16 @@
             <h2 class="display-5">Cartera</h2>
             <p class="lead">Tus objetos preciados, cubiertos.</p>
           </div>
-          <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+          <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+          </div>
         </div>
         <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div class="my-3 py-3">
             <h2 class="display-5">Dispositivos Digitales</h2>
             <p class="lead">Usa el celu o la compu con total tranquilidad.</p>
           </div>
-          <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+          <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+          </div>
         </div>
       </div>
 
@@ -220,14 +222,16 @@
             <h2 class="display-5">Bicicleta</h2>
             <p class="lead">Deja tu bici en nuestras manos.</p>
           </div>
-          <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+          <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+          </div>
         </div>
         <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div class="my-3 py-3">
             <h2 class="display-5">Robo</h2>
             <p class="lead">Joyas y valores, blindados.</p>
           </div>
-          <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+          <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+          </div>
         </div>
       </div>
     </div>
@@ -235,32 +239,34 @@
   </main>
 
   <footer class="container py-5">
-    <small>Virginia Eliana De Nardo <br>
-      MAT: 74904 <br>
-      Consultá acerca de las coberturas, sus límites, condiciones de suscripción y exclusiones de la póliza. <br>
-      Departamento de Orientación y Asistencia al asegurado <strong
-        style="color: #29abe2; font-size: 14px;">0800-666-8400</strong>
-    </small>
+    <p><small>Virginia Eliana De Nardo <br>
+        MAT: 74904 <br>
+        Consultá acerca de las coberturas, sus límites, condiciones de suscripción y exclusiones de la póliza. <br>
+        Departamento de Orientación y Asistencia al asegurado <strong
+          style="color: #29abe2; font-size: 14px;">0800-666-8400</strong>
+      </small></p>
 
-    <div class="col-md-3 col-xs-8 mg-b"><img alt="SSN" src="img/LogoSSN.svg">
-      <strong style="color: #29abe2; font-size: 14px;">www.argentina.gob.ar/ssn</strong>
+    <div class="col-md-3 col-xs-8 mg-b">
+      <img alt="SSN" src="img/LogoSSN.svg">
     </div>
-    <small>En caso de que existiera un reclamo ante la entidad aseguradora y que el mismo no haya sido resuelto o
-      haya sido desestimado, total o parcialmente, o que haya sido denegada su admisión, podrá comunicarse con
-      la&nbsp;&nbsp;Superintendencia de Seguros de la Nación por teléfono al 0800-666-8400, correo electrónico a
-      <strong>consultas@ssn.gob.ar</strong> o formulario disponible en la
-      página&nbsp;<strong>www.argentina.gob.ar/ssn</strong></small>
-    </div>
+    <p> <strong style="color: #29abe2; font-size: 14px;">www.argentina.gob.ar/ssn</strong></p>
+    <p><small>En caso de que existiera un reclamo ante la entidad aseguradora y que el mismo no haya sido resuelto o
+        haya sido desestimado, total o parcialmente, o que haya sido denegada su admisión, podrá comunicarse con
+        la&nbsp;&nbsp;Superintendencia de Seguros de la Nación por teléfono al 0800-666-8400, correo electrónico a
+        <strong>consultas@ssn.gob.ar</strong> o formulario disponible en la
+        página&nbsp;<strong>www.argentina.gob.ar/ssn</strong></small></p>
+
+
     <div class="row">
       <div class="col-12 col-md">
         <a class="d-block mb-3 text-body-secondary" href="https://matipretz.ar/" style="text-decoration: none;"
           target="_blank"><small><br><strong>/m</strong> &copy; 2024</small></a>
       </div>
-
+    </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 </body>
 </html>
-<!-- 2024-01-05 10:43 -->
+<!-- 2024-01-05 11:23 -->
