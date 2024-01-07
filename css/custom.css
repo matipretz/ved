@@ -76,9 +76,18 @@
 }
 
 .bd-mode-toggle {
-  z-index: 1500;
+  z-index: 2500;
+}
+.btn-toolbar {
+  z-index: 2500;
 }
 
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block;
+}
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
