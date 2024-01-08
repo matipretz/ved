@@ -1,0 +1,26 @@
+  .carousel-caption p{
+    color: #a93086;
+  }
+  .card h3{
+    color: #d463b7;
+    }
+  .carousel-caption h3{
+    color: #d463b7;
+  }
+  .carousel-caption{
+    background-color: #e1e9e665;
+    border-radius: 5px;
+  }
+  .navbar{
+    background-color: #2f0d25;
+  }
+  .navbar h2{
+    color: #A93086;
+  }
+
+
+  .color1 { color:#a93086 };
+  .color2 {color: #bf499f };
+  .color3 {color: #d463b7 };
+  .color4 {color: #ea7cd0 };
+  .color5 {color: #ff95e8 };
