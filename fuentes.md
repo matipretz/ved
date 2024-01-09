@@ -13,26 +13,20 @@ https://www.instagram.com/ved.segurosgenerales/?hl=en
 Cards = 3:4
 Carousel = 2:1
 
-Tecnologia (celulares, notebook, etc)
+1 Autos
+2 Motos
+3 Camiones 
+4 Tecnología
+5 Bicicleta
+6 Monopatín
+7 Autos clasicos
+8 Hogar
+9 Comercios
+10 Consorcios
+11 ART
+12 Accidentes Personales
+13 Embarcaciones
+14 Motos de agua
+15 Velas
+16 Caución
 
-Autos
-
-Motos
-
-Camiones 
-
-Autos clasicos
-
-Accidentes Personales
-
-ART
-
-Hogar (combinados familiares)
-
-Comercios y Consorcios (asegura tu negocio, preteccion a mercaderia.. blabla)
-
-Embarcaciones, motos de agua, velas
-
-Caucion
-
-Bicicleta y monopatín
