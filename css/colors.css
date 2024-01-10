@@ -1,15 +1,12 @@
-  .carousel-caption p{
-    color: #a93086;
-  }
+
   .card h3{
     color: #d463b7;
     }
-  .carousel-caption h3{
-    color: #d463b7;
-  }
+
   .carousel-caption{
     background-color: #e1e9e665;
     border-radius: 5px;
+    padding: 1em;
   }
   .navbar{
     background-color: #2f0d25;

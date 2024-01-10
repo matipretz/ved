@@ -4,12 +4,6 @@ https://www.facebook.com/ved.segurosgenerales/
 https://www.instagram.com/ved.segurosgenerales/?hl=en
 
 
-.color1 { #a93086 };
-.color2 { #bf499f };
-.color3 { #d463b7 };
-.color4 { #ea7cd0 };
-.color5 { #ff95e8 };
-
 Cards = 3:4
 Carousel = 2:1
 
@@ -30,3 +24,8 @@ Carousel = 2:1
 15 Velas
 16 Caución
 
+Agregar efecto a los iconos
+Cambiar color botones
+probar imagenes menos apretadas y mas grandes 16:9
+Cambiar el color primary
+Eliminar las section tags
