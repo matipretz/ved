@@ -30,4 +30,3 @@ probar imagenes menos apretadas y mas grandes 16:9
 Cambiar el color primary
 Eliminar las section tags/depuracion semantica
 Cohesionar los footers
-Crear el formulario
