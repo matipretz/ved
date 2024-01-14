@@ -169,6 +169,57 @@
     </section>
   </header>
   <main class="container">
+
+    <!-- Modal FORM -->
+    <div>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Launch static backdrop modal
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">VED - SEGUROS GENERALES</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!--FORM -->
+              <form method="post" action="https://forms.un-static.com/forms/0fe29011df28ec48e0001a849d6a64d0fecbd915">
+                <div class="mb-3">
+
+                  <label for="exampleFormControlInput1" class="form-label">Tu e-mail</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="nombre@ejemplo.com">
+                </div>
+
+                <select class="form-select" aria-label="">
+                  <option selected>Autos</option>
+                  <option value="1">Motos</option>
+                  <option value="2">Camiones</option>
+                  <option value="3">Dispositivos electrónicos</option>
+                  <option value="4">Otros</option>
+                </select>
+
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribime tu consulta..."
+                    rows="3"></textarea>
+                </div>
+                <!--FORM end-->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Carousel -->
     <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner rounded-5 shadow-4-strong my-5">
@@ -184,7 +235,8 @@
             <h1>Autos</h1>
             <p class="opacity-75"> Terceros, robo total o parcial, incendio total o parcial y destrucción total
               o parcial por incendio o por accidente.</p>
-            <p><a class="btn btn-lg btn-primary" href="https://api.whatsapp.com/message/X7LGHKS5XH2DC1" target="_blank">Consulta por tu cobertura</a></p>
+            <p><a class="btn btn-lg btn-primary" href="https://api.whatsapp.com/message/X7LGHKS5XH2DC1"
+                target="_blank">Consulta por tu cobertura</a></p>
           </div>
         </div>
 
@@ -199,7 +251,8 @@
             <div class="carousel-caption">
               <h1>Motos</h1>
               <p>Responsabilidad civil, pérdida total por accidente, incendio, robo o hurto.</p>
-              <p><a class="btn btn-lg btn-primary" href="https://api.whatsapp.com/message/X7LGHKS5XH2DC1" target="_blank">Tenemos un plan para vos</a></p>
+              <p><a class="btn btn-lg btn-primary" href="https://api.whatsapp.com/message/X7LGHKS5XH2DC1"
+                  target="_blank">Tenemos un plan para vos</a></p>
             </div>
           </div>
         </div>
@@ -215,7 +268,8 @@
             <div class="carousel-caption text-end">
               <h1>Tecnología</h1>
               <p>Robo en la via publica y daños por tentativa de robo de celular, tablet o notebook</p>
-              <p><a class="btn btn-lg btn-primary" href="https://api.whatsapp.com/message/X7LGHKS5XH2DC1" target="_blank">Consulta por tu dispositivo</a></p>
+              <p><a class="btn btn-lg btn-primary" href="https://api.whatsapp.com/message/X7LGHKS5XH2DC1"
+                  target="_blank">Consulta por tu dispositivo</a></p>
             </div>
           </div>
         </div>
@@ -239,9 +293,9 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class=" rounded-circle mx-auto d-block" width="140" height="140"  src="/img/cards/camion (1).jpg">
+          <img class=" rounded-circle mx-auto d-block" width="140" height="140" src="/img/cards/camion (1).jpg">
 
-          
+
           <h2 class="fw-normal">Camiones</h2>
           <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
             column.</p>
