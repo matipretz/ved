@@ -162,60 +162,17 @@
       </div>
     </nav>
   </header>
-  <main class="container">
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-      aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">VED - SEGUROS GENERALES</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <!--FORM -->
-            <form method="post" action="https://forms.un-static.com/forms/0fe29011df28ec48e0001a849d6a64d0fecbd915">
-              <div class="mb-3">
-
-                <label for="exampleFormControlInput1" class="form-label">Tu e-mail</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" name="email"
-                  placeholder="nombre@ejemplo.com" required autocomplete="on">
-              </div>
-              <select class="form-select" name="Asunto" aria-label="">
-                <option selected value="Autos">Autos</option>
-                <option value="Motos">Motos</option>
-                <option value="Camiones">Camiones</option>
-                <option value="Dispositivos electrónicos">Dispositivos electrónicos</option>
-                <option value="Otros">Otros</option>
-              </select>
-              <div class=" mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label"></label>
-                <textarea class="form-control" name="Consulta" id="exampleFormControlTextarea1"
-                  placeholder="Escribime tu consulta..." rows="3"></textarea>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-              </div>
-            </form>
-            <!--FORM end-->
-          </div>
-        </div>
-      </div>
-    </div>
+  <main class="">
     <!-- Carousel -->
     <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner rounded-5 shadow-4-strong my-5">
+      <div class="carousel-inner">
         <!-- Item 1 AUTO-->
         <div class="carousel-item active">
-          <img class="img-fluid mx-auto" src="/img/carousel/car (2).jpg">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <div class="carousel-caption text-start">
+          <img class="img-fluid w-100" src="/img/car (2).jpg" fetchpriority="high">
+          
+          <div class="carousel-caption text-start ">
             <h1>Autos</h1>
-            <p class="opacity-75"> Terceros, robo total o parcial, incendio total o parcial y destrucción total
+            <p> Terceros, robo total o parcial, incendio total o parcial y destrucción total
               o parcial por incendio o por accidente.</p>
             <p><a class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consulta por tu
                 cobertura</a></p>
@@ -223,7 +180,7 @@
         </div>
         <!-- Item 2 MOTO-->
         <div class="carousel-item">
-          <img class="img-fluid mx-auto" src="/img/carousel/prey.jpg">
+          <img class="img-fluid w-100" src="/img/prey.jpg">
           <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
             <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
@@ -239,7 +196,7 @@
         </div>
         <!-- Item 3 Tecnologia-->
         <div class="carousel-item">
-          <img class="img-fluid mx-auto" src="/img/carousel/tecnologia.jpg">
+          <img class="img-fluid w-100" src="/img/tecnologia.jpg">
           <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
             <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
@@ -269,7 +226,7 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class=" rounded-circle mx-auto d-block" width="140" height="140" src="/img/cards/camion (1).jpg">
+          <img class=" rounded-circle mx-auto d-block" width="140" height="140" src="/img/camion (1).jpg">
           <h2 class="fw-normal">Camiones</h2>
           <p>Asegura tu flota, su carga y la tranquilidad de que nuestro enfoque personalizado se adapta a las
             complejidades de tu entorno, ofreciendote seguridad y respaldo integrales. </p>
@@ -277,7 +234,7 @@
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
-          <img class=" rounded-circle mx-auto d-block" width="140" height="140" src="/img/cards/bici (2).jpg">
+          <img class=" rounded-circle mx-auto d-block" width="140" height="140" src="/img/bici (2).jpg">
           <h2 class="fw-normal">Bicicletas</h2>
           <p>Robo, daños o accidentes, todo para que pedalees con tranquilidad. Tu compañera de aventuras siempre
             segura.</p>
@@ -285,14 +242,13 @@
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
-          <img class=" rounded-circle mx-auto d-block" width="140" height="140" src="/img/cards/casa (1).jpg">
+          <img class=" rounded-circle mx-auto d-block" width="140" height="140" src="/img/casa (1).jpg">
           <h2 class="fw-normal">Hogar</h2>
           <p>Tu casa es tu refugio, protejelo. Cobertura por daños estructurales, robo y responsabilidad civil. Tu paz
             mental es nuestra prioridad.</p>
           <p><a class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consultame!</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
-
 
       <!-- START THE FEATURETTES -->
       <hr class="featurette-divider">
@@ -306,9 +262,8 @@
             ruedas. Conducir con estilo nunca ha sido tan seguro.</p>
         </div>
         <div class="col-md-5">
-          <img class=bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-          height="500" src="/img/cards/muscle.jpg">
-
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="/img/muscle.jpg">
         </div>
       </div>
 
@@ -323,8 +278,8 @@
             protegida.</p>
         </div>
         <div class="col-md-5 order-md-1">
-          <img class=bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-          height="500" src="/img/carousel/monop (1).jpg">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="/img/monop (1).jpg">
         </div>
       </div>
 
@@ -338,13 +293,12 @@
             para que puedas enfocarte en hacer crecer tus sueños empresariales. Tu éxito es nuestro compromiso.</p>
         </div>
         <div class="col-md-5">
-          <img class=bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-          height="500" src="/img/carousel/negocio1.jpg">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="/img/negocio1.jpg">
         </div>
       </div>
-
-      <hr class="featurette-divider">
       <!-- /END THE FEATURETTES -->
+      <hr class="featurette-divider">
     </div><!-- Marketing END-->
     <!-- Grid -->
     <div class="container px-3 py-1" id="icon-grid">
@@ -393,6 +347,46 @@
         </div>
       </div>
       <hr class="featurette-divider">
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">VED - SEGUROS GENERALES</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!--FORM -->
+            <form method="post" action="https://forms.un-static.com/forms/0fe29011df28ec48e0001a849d6a64d0fecbd915">
+              <div class="mb-3">
+
+                <label for="exampleFormControlInput1" class="form-label">Tu e-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" name="email"
+                  placeholder="nombre@ejemplo.com" required autocomplete="on">
+              </div>
+              <select class="form-select" name="Asunto" aria-label="">
+                <option selected value="Autos">Autos</option>
+                <option value="Motos">Motos</option>
+                <option value="Camiones">Camiones</option>
+                <option value="Dispositivos electrónicos">Dispositivos electrónicos</option>
+                <option value="Otros">Otros</option>
+              </select>
+              <div class=" mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" name="Consulta" id="exampleFormControlTextarea1"
+                  placeholder="Escribime tu consulta..." rows="3"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
+            <!--FORM end-->
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
