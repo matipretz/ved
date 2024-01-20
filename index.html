@@ -40,7 +40,6 @@
   <script src="js/color-modes.js"></script>
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/colors.css">
-
 </head>
 <body>
   <header>
@@ -62,6 +61,8 @@
           </svg>
         </a>
 
+
+        
         <div class="dropdown bd-mode-toggle">
           <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
             aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
@@ -153,7 +154,9 @@
           d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
       </symbol>
     </svg>
-    <!-- NAV -->
+
+  </header>
+  <main>
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container-fluid justify-content-center">
         <a class="navbar-brand" href="#">
@@ -161,15 +164,13 @@
         </a>
       </div>
     </nav>
-  </header>
-  <main class="">
     <!-- Carousel -->
     <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <!-- Item 1 AUTO-->
         <div class="carousel-item active">
-          <img class="img-fluid w-100" src="/img/car (2).jpg" fetchpriority="high">
-          
+          <div id="image" style="background-image:url(/img/car.jpg)" fetchpriority="high">
+          </div>
           <div class="carousel-caption text-start ">
             <h1>Autos</h1>
             <p> Terceros, robo total o parcial, incendio total o parcial y destrucción total
@@ -180,12 +181,7 @@
         </div>
         <!-- Item 2 MOTO-->
         <div class="carousel-item">
-          <img class="img-fluid w-100" src="/img/prey.jpg">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <div class="container">
+          <div id="image" style="background-image:url(/img/prey.jpg)">
             <div class="carousel-caption">
               <h1>Motos</h1>
               <p>Responsabilidad civil, pérdida total por accidente, incendio, robo o hurto.</p>
@@ -196,16 +192,12 @@
         </div>
         <!-- Item 3 Tecnologia-->
         <div class="carousel-item">
-          <img class="img-fluid w-100" src="/img/tecnologia.jpg">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <div class="container">
+          <div id="image" style="background-image:url(/img/tecnologia.jpg)">
             <div class="carousel-caption text-end">
               <h1>Tecnología</h1>
               <p>Robo en la via publica y daños por tentativa de robo de celular, tablet o notebook</p>
-              <p><a class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consulta por
+              <p><a class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consulta
+                  por
                   tu dispositivo</a></p>
             </div>
           </div>
@@ -221,8 +213,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div> <!-- carousel END -->
-    <!-- Marketing messaging and featurettes -->
-    <div class="container marketing">
+    <div class="container marketing"><!-- Marketing messaging and featurettes -->
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
@@ -230,7 +221,8 @@
           <h2 class="fw-normal">Camiones</h2>
           <p>Asegura tu flota, su carga y la tranquilidad de que nuestro enfoque personalizado se adapta a las
             complejidades de tu entorno, ofreciendote seguridad y respaldo integrales. </p>
-          <p><a class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consultame!</a></p>
+          <p><a class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consultame!</a>
+          </p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
@@ -238,15 +230,18 @@
           <h2 class="fw-normal">Bicicletas</h2>
           <p>Robo, daños o accidentes, todo para que pedalees con tranquilidad. Tu compañera de aventuras siempre
             segura.</p>
-          <p><a class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consultame!</a></p>
+          <p><a class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consultame!</a>
+          </p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
           <img class=" rounded-circle mx-auto d-block" width="140" height="140" src="/img/casa (1).jpg">
           <h2 class="fw-normal">Hogar</h2>
-          <p>Tu casa es tu refugio, protejelo. Cobertura por daños estructurales, robo y responsabilidad civil. Tu paz
+          <p>Tu casa es tu refugio, protejelo. Cobertura por daños estructurales, robo y responsabilidad civil. Tu
+            paz
             mental es nuestra prioridad.</p>
-          <p><a class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consultame!</a></p>
+          <p><a class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consultame!</a>
+          </p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -255,7 +250,8 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">Autos clasicos. <span class="text-body-secondary">Preserva la
+          <h2 class="featurette-heading fw-normal lh-1">Autos clasicos. <span class="text-body-secondary">Preserva
+              la
               elegancia sobre ruedas.</span></h2>
           <p class="lead">Tu clásico merece lo mejor. Protegemos cada detalle de tu automóvil
             antiguo. Ya sea un tesoro vintage o un ícono atemporal, garantizamos la seguridad de tu elegancia sobre
@@ -287,9 +283,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">Comercios. <span class="text-body-secondary">Seguridad para tu
+          <h2 class="featurette-heading fw-normal lh-1">Comercios. <span class="text-body-secondary">Seguridad para
+              tu
               Negocio.</span></h2>
-          <p class="lead"> Ya sea una tienda, restaurante o cualquier tipo de negocio, brindamos la seguridad necesaria
+          <p class="lead"> Ya sea una tienda, restaurante o cualquier tipo de negocio, brindamos la seguridad
+            necesaria
             para que puedas enfocarte en hacer crecer tus sueños empresariales. Tu éxito es nuestro compromiso.</p>
         </div>
         <div class="col-md-5">

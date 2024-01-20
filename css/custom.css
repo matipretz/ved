@@ -176,13 +176,26 @@ body {
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+  border-radius: 5px;
+  padding: 1em;
 }
+
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 75vh;
+}
+.carousel .img-responsive {
+  width:100%;
 }
 
+#image
+{
+  height: 100%; /*or 70%, or what you want*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -193,13 +206,10 @@ body {
   text-align: center;
 }
 
-/* rtl:begin:ignore */
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
-
-/* rtl:end:ignore */
 
 
 /* Featurettes
@@ -211,12 +221,9 @@ body {
 }
 
 /* Thin out the marketing headings */
-/* rtl:begin:remove */
 .featurette-heading {
   letter-spacing: -.05rem;
 }
-
-/* rtl:end:remove */
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -239,4 +246,14 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+
+.modal-footer{
+  border-top: 0;
+}
+
+
+a[title] {
+  display: none;
 }
