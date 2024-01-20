@@ -1,465 +1,489 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- HEAD -->
+<html lang=en data-bs-theme=auto>
 <head>
-    <!-- Meta tags for character set-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Primary Meta Tags -->
-    <title>VED Seguros Generales</title>
-    <meta name="title" content="VED Seguros Generales">
-    <!-- Favicon links -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <!-- Stylesheets -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="js/color-modes.js"></script>
-    <link rel="stylesheet" href="css/custom.css">
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>VED Seguros Generales Automotor Moto Tecnología Accidentes Personales Hogar Integral
+Comercio Consorcio</title>
+<meta name=title content="VED Seguros Generales Automotor Moto Tecnología Accidentes Personales Hogar Integral
+  Comercio Consorcio">
+<meta name=description content="Seguros Generales Automotor Moto Tecnología Accidentes Personales Hogar Integral
+  Comercio Consorcio">
+<link rel=apple-touch-icon sizes=180x180 href=favicon/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=favicon/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=favicon/favicon-16x16.png>
+<link rel=manifest href=favicon/site.webmanifest>
+<meta property=og:type content=website />
+<meta property=og:url content=http://vedasesoresdeseguros.com.ar/ />
+<meta property=og:title content="VED Seguros Generales Automotor Moto Tecnología Accidentes Personales Hogar Integral
+  Comercio Consorcio" />
+<meta property=og:description content="Seguros Generales Automotor Moto Tecnología Accidentes Personales Hogar Integral
+    Comercio Consorcio" />
+<meta property=og:image content=http://vedasesoresdeseguros.com.ar/favicon/android-chrome-512x512.png />
+<meta property=twitter:card content=summary_large_image />
+<meta property=twitter:url content=http://vedasesoresdeseguros.com.ar/ />
+<meta property=twitter:title content="VED Seguros Generales Automotor Moto Tecnología Accidentes Personales Hogar Integral
+  Comercio Consorcio" />
+<meta property=twitter:description content="Seguros Generales Automotor Moto Tecnología Accidentes Personales Hogar Integral
+  Comercio Consorcio" />
+<meta property=twitter:image content=http://vedasesoresdeseguros.com.ar/favicon/android-chrome-512x512.png />
+<link href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css rel=stylesheet integrity=sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN crossorigin=anonymous>
+<script src=js/color-modes.js></script>
+<link rel=stylesheet href=css/custom.css>
 </head>
-<body class="container-fluid">
-    <!-- Toggler -->
-    <section>
-        <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-            <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme"
-                type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
-                <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
-                    <use href="#circle-half"></use>
-                </svg>
-                <span class="visually-hidden" id="bd-theme-text">Cambiar tema</span>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-                <li>
-                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
-                        aria-pressed="false">
-                        <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-                            <use href="#sun-fill"></use>
-                        </svg>
-                        Claro
-                        <svg class="bi ms-auto d-none" width="1em" height="1em">
-                            <use href="#check2"></use>
-                        </svg>
-                    </button>
-                </li>
-                <li>
-                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
-                        aria-pressed="false">
-                        <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-                            <use href="#moon-stars-fill"></use>
-                        </svg>
-                        Oscuro
-                        <svg class="bi ms-auto d-none" width="1em" height="1em">
-                            <use href="#check2"></use>
-                        </svg>
-                    </button>
-                </li>
-                <li>
-                    <button type="button" class="dropdown-item d-flex align-items-center active"
-                        data-bs-theme-value="auto" aria-pressed="true">
-                        <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
-                            <use href="#circle-half"></use>
-                        </svg>
-                        Automático
-                        <svg class="bi ms-auto d-none" width="1em" height="1em">
-                            <use href="#check2"></use>
-                        </svg>
-                    </button>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- SVG -->
-    <section>
-        <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-            <symbol id="wa" viewBox="0 0 16 16">
-                <path
-                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-            </symbol>
-            <symbol id="check2" viewBox="0 0 16 16">
-                <path
-                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
-            </symbol>
-            <symbol id="circle-half" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
-            </symbol>
-            <symbol id="moon-stars-fill" viewBox="0 0 16 16">
-                <path
-                    d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
-                <path
-                    d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
-            </symbol>
-            <symbol id="sun-fill" viewBox="0 0 16 16">
-                <path
-                    d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
-            </symbol>
-        </svg>
-    </section>
-    <!-- CONTENIDO -->
-    <section>
-        <div class="d-flex  container ">
-            <div class="text-left mt-5">
-                <h1>Política de privacidad</h1>
-                <p>Actualizado el 2024-01-06</p>
-
-                <br>
-                <br>
-                <br>
-                <p>VED Seguros Generales ("nosotros", "nuestro" o "nos") se compromete a proteger su privacidad. Esta
-                    Política de
-                    privacidad explica cómo VED Seguros Generales recopila, usa y divulga su información personal.</p>
-                <p>Esta Política de privacidad se aplica a nuestro sitio web, https://vedasesoresdeseguros.com.ar/ y sus
-                    subdominios
-                    asociados (colectivamente, nuestro "Servicio") junto con nuestra aplicación, VED Seguros Generales.
-                    Al acceder o
-                    utilizar nuestro Servicio, usted indica que ha leído, comprendido y aceptado nuestra recopilación,
-                    almacenamiento, uso y divulgación de su información personal como se describe en esta Política de
-                    privacidad y
-                    en nuestros Términos de servicio.</p>
-                <br>
-                <h1>Definiciones y Términos clave</h1>
-                <p>Para ayudar a explicar las cosas de la manera más clara posible en esta Política de privacidad, cada
-                    vez que se
-                    hace referencia a cualquiera de estos términos, se definen estrictamente como:</p>
-                <ul>
-                    <li>Cookie: pequeña cantidad de datos generados por un sitio web y guardados por su navegador web.
-                        Se utiliza
-                        para identificar su navegador, proporcionar análisis, recordar información sobre usted, como su
-                        preferencia
-                        de idioma o información de inicio de sesión.</li>
-                    <li>Compañía: cuando esta política menciona "Compañía", "nosotros", "nos" o "nuestro", se refiere a
-                        VED Seguros
-                        Generales, que es responsable de su información en virtud de esta Política de privacidad.</li>
-                    <li>Plataforma: sitio web de Internet, aplicación web o aplicación digital de cara al público de VED
-                        Seguros
-                        Generales.</li>
-                    <li>País: donde se encuentran VED Seguros Generales o los propietarios / fundadores de VED Seguros
-                        Generales, en
-                        este caso es Argentina</li>
-                    <li>Cliente: se refiere a la empresa, organización o persona que se registra para utilizar el
-                        Servicio VED
-                        Seguros Generales para gestionar las relaciones con sus consumidores o usuarios del servicio.
-                    </li>
-                    <li>Dispositivo: cualquier dispositivo conectado a Internet, como un teléfono, tablet, computadora o
-                        cualquier
-                        otro dispositivo que se pueda usar para visitar VED Seguros Generales y usar los servicios.</li>
-                    <li>Dirección IP: a cada dispositivo conectado a Internet se le asigna un número conocido como
-                        dirección de
-                        protocolo de Internet (IP). Estos números generalmente se asignan en bloques geográficos. A
-                        menudo, se puede
-                        utilizar una dirección IP para identificar la ubicación desde la que un dispositivo se conecta a
-                        Internet.
-                    </li>
-                    <li>Personal: se refiere a aquellas personas que son empleadas por VED Seguros Generales o están
-                        bajo contrato
-                        para realizar un servicio en nombre de una de las partes.</li>
-                    <li>Datos personales: cualquier información que directa, indirectamente o en conexión con otra
-                        información,
-                        incluido un número de identificación personal, permita la identificación de una persona física.
-                    </li>
-                    <li>Servicio: se refiere al servicio brindado por VED Seguros Generales como se describe en los
-                        términos
-                        relativos (si están disponibles) y en esta plataforma.</li>
-                    <li>Terceros: se refiere a anunciantes, patrocinadores de concursos, socios promocionales y de
-                        marketing, y
-                        otros que brindan nuestro contenido o cuyos productos o servicios que creemos que pueden
-                        interesarle.</li>
-                    <li>Sitio web: el sitio de VED Seguros Generales, al que se puede acceder a través de esta URL:
-                        https://vedasesoresdeseguros.com.ar/</li>
-                    <li>Usted: una persona o entidad que está registrada con VED Seguros Generales para utilizar los
-                        Servicios.</li>
-                </ul>
-                <br>
-                <h1>Información recopilada automáticamente</h1>
-                <p>Existe cierta información como su dirección de Protocolo de Internet (IP) y / o las características
-                    del navegador
-                    y del dispositivo, que se recopila automáticamente cuando visita nuestra plataforma. Esta
-                    información se puede
-                    utilizar para conectar su computadora a Internet. Otra información recopilada automáticamente podría
-                    ser un
-                    inicio de sesión, dirección de correo electrónico, contraseña, información de la computadora y la
-                    conexión, como
-                    los tipos y versiones de complementos del navegador y la configuración de la zona horaria, los
-                    sistemas
-                    operativos y las plataformas, el historial de compras (a veces agregamos información similar de
-                    otros usuarios),
-                    el flujo de clics completo del Localizador uniforme de recursos (URL) hacia, a través y desde
-                    nuestro sitio web
-                    que puede incluir la fecha y la hora; número de cookie; partes del sitio que vio o buscó; y el
-                    número de
-                    teléfono que utilizó para llamar a nuestro Servicio de atención al cliente. También podemos utilizar
-                    datos del
-                    navegador como cookies, cookies Flash (también conocidas como objetos compartidos locales Flash) o
-                    datos
-                    similares en ciertas partes de nuestro sitio web para la prevención del fraude y otros fines.
-                    Durante sus
-                    visitas, podemos utilizar herramientas de software como JavaScript para medir y recopilar
-                    información de la
-                    sesión, incluidos los tiempos de respuesta de la página, los errores de descarga, la duración de las
-                    visitas a
-                    determinadas páginas, la información de interacción de la página (como el desplazamiento, los clics
-                    y el
-                    desplazamiento del mouse) y métodos utilizados para navegar fuera de la página. También podemos
-                    recopilar
-                    información técnica para ayudarnos a identificar su dispositivo con fines de prevención y
-                    diagnóstico de fraude.
-                </p>
-                <p>Recopilamos automáticamente cierta información cuando visita, usa o navega por la plataforma. Esta
-                    información no
-                    revela su identidad específica (como su nombre o información de contacto), pero puede incluir
-                    información de uso
-                    y dispositivo, como su dirección IP, navegador y características del dispositivo, sistema operativo,
-                    preferencias de idioma, URL de referencia, nombre del dispositivo, país, ubicación. , información
-                    sobre quién y
-                    cuándo utiliza nuestra información y otra información técnica. Esta información es principalmente
-                    necesaria para
-                    mantener la seguridad y el funcionamiento de nuestra plataforma, y para nuestros fines de análisis e
-                    informes
-                    internos.</p>
-                <br>
-                <h1>Venta de Negocio</h1>
-                <p>Nos reservamos el derecho de transferir información a un tercero en el caso de una venta, fusión u
-                    otra
-                    transferencia de todos o sustancialmente todos los activos de VED Seguros Generales o cualquiera de
-                    sus
-                    afiliadas corporativas (como se define en este documento), o la porción de VED Seguros Generales o
-                    cualquiera de
-                    sus Afiliadas corporativas con las que se relaciona el Servicio, o en el caso de que discontinuemos
-                    nuestro
-                    negocio o presentemos una petición o hayamos presentado una petición contra nosotros en caso de
-                    quiebra,
-                    reorganización o procedimiento similar, siempre que el el tercero acepte adherirse a los términos de
-                    esta
-                    Política de privacidad.</p>
-                <br>
-                <h1>Afiliados</h1>
-                <p>Podemos divulgar información (incluida la información personal) sobre usted a nuestros afiliados
-                    corporativos.
-                    Para los propósitos de esta Política de Privacidad, "Afiliado Corporativo" significa cualquier
-                    persona o entidad
-                    que directa o indirectamente controla, está controlada por o está bajo control común con VED Seguros
-                    Generales,
-                    ya sea por propiedad o de otra manera. Cualquier información relacionada con usted que
-                    proporcionemos a nuestros
-                    afiliados corporativos será tratada por dichos afiliados corporativos de acuerdo con los términos de
-                    esta
-                    política de privacidad.</p>
-                <br>
-                <h1>Ley que Rige</h1>
-                <p>Esta Política de privacidad se rige por las leyes de Argentina sin tener en cuenta su disposición
-                    sobre conflicto
-                    de leyes. Usted acepta la jurisdicción exclusiva de los tribunales en relación con cualquier acción
-                    o disputa
-                    que surja entre las partes en virtud de esta Política de privacidad o en relación con ella, excepto
-                    aquellas
-                    personas que puedan tener derecho a presentar reclamaciones en virtud del Escudo de privacidad o el
-                    marco
-                    suizo-estadounidense.</p>
-                <p>Las leyes de Argentina, excluyendo sus conflictos de leyes, regirán este Acuerdo y su uso de la
-                    plataforma. Su uso
-                    de la plataforma también puede estar sujeto a otras leyes locales, estatales, nacionales o
-                    internacionales.</p>
-                <p>Al usar VED Seguros Generales o comunicarse con nosotros directamente, significa que acepta esta
-                    Política de
-                    privacidad. Si no está de acuerdo con esta Política de privacidad, no debe interactuar con nuestro
-                    sitio web ni
-                    utilizar nuestros servicios. El uso continuo del sitio web, la interacción directa con nosotros o
-                    después de la
-                    publicación de cambios en esta Política de privacidad que no afecten significativamente el uso o
-                    divulgación de
-                    su información personal significará que acepta esos cambios.</p>
-                <br>
-                <h1>Tu consentimiento</h1>
-                <p>Hemos actualizado nuestra Política de privacidad para brindarle total transparencia sobre lo que se
-                    establece
-                    cuando visita nuestro sitio y cómo se utiliza. Al utilizar nuestra plataforma, registrar una cuenta
-                    o realizar
-                    una compra, por la presente acepta nuestra Política de privacidad y acepta sus términos.</p>
-                <br>
-                <h1>Enlaces a otros Sitios Web</h1>
-                <p>Esta Política de privacidad se aplica solo a los Servicios. Los Servicios pueden contener enlaces a
-                    otros sitios
-                    web que VED Seguros Generales no opera ni controla. No somos responsables por el contenido, la
-                    precisión o las
-                    opiniones expresadas en dichos sitios web, y dichos sitios web no son investigados, monitoreados o
-                    verificados
-                    por nuestra precisión o integridad. Recuerde que cuando utiliza un enlace para ir desde los
-                    Servicios a otro
-                    sitio web, nuestra Política de privacidad deja de estar en vigor. Su navegación e interacción en
-                    cualquier otro
-                    sitio web, incluidos aquellos que tienen un enlace en nuestra plataforma, están sujetos a las
-                    propias reglas y
-                    políticas de ese sitio web. Dichos terceros pueden utilizar sus propias cookies u otros métodos para
-                    recopilar
-                    información sobre usted.</p>
-                <br>
-                <h1>Cookies</h1>
-                <p>VED Seguros Generales utiliza "cookies" para identificar las áreas de nuestro sitio web que ha
-                    visitado. Una
-                    cookie es una pequeña porción de datos que su navegador web almacena en su computadora o dispositivo
-                    móvil.
-                    Usamos cookies para mejorar el rendimiento y la funcionalidad de nuestra plataforma, pero no son
-                    esenciales para
-                    su uso. Sin embargo, sin estas cookies, es posible que ciertas funciones, como los videos, no estén
-                    disponibles
-                    o se le solicitará que ingrese sus datos de inicio de sesión cada vez que visite la plataforma, ya
-                    que no
-                    podríamos recordar que había iniciado sesión anteriormente. La mayoría de los navegadores web se
-                    pueden
-                    configurar para desactivar el uso de cookies. Sin embargo, si desactiva las cookies, es posible que
-                    no pueda
-                    acceder a la funcionalidad de nuestro sitio web correctamente o en absoluto. Nunca colocamos
-                    información de
-                    identificación personal en cookies.</p>
-                <br>
-                <h1>Bloquear y deshabilitar Cookies y tecnologías similares</h1>
-                <p>Donde sea que se encuentre, también puede configurar su navegador para bloquear cookies y tecnologías
-                    similares,
-                    pero esta acción puede bloquear nuestras cookies esenciales e impedir que nuestro sitio web funcione
-                    correctamente, y es posible que no pueda utilizar todas sus funciones y servicios por completo.
-                    También debe
-                    tener en cuenta que también puede perder información guardada (por ejemplo, detalles de inicio de
-                    sesión
-                    guardados, preferencias del sitio) si bloquea las cookies en su navegador. Los distintos navegadores
-                    ponen a su
-                    disposición distintos controles. Deshabilitar una cookie o una categoría de cookie no elimina la
-                    cookie de su
-                    navegador, deberá hacerlo usted mismo desde su navegador, debe visitar el menú de ayuda de su
-                    navegador para
-                    obtener más información.</p>
-                <br>
-                <h1>Privacidad de los Niños</h1>
-                <p>No nos dirigimos a ninguna persona menor de 13 años. No recopilamos información de identificación
-                    personal de
-                    ninguna persona menor de 13 años. Si usted es padre o tutor y sabe que su hijo nos ha proporcionado
-                    Datos
-                    personales, comuníquese con Nos. Si nos damos cuenta de que hemos recopilado datos personales de
-                    cualquier
-                    persona menor de 13 años sin la verificación del consentimiento de los padres, tomamos medidas para
-                    eliminar esa
-                    información de nuestros servidores.</p>
-                <br>
-                <h1>Cambios en nuestra Política de Privacidad</h1>
-                <p>Podemos cambiar nuestro Servicio y nuestras políticas, y es posible que debamos realizar cambios en
-                    esta Política
-                    de privacidad para que reflejen con precisión nuestro Servicio y nuestras políticas. A menos que la
-                    ley exija lo
-                    contrario, le notificaremos (por ejemplo, a través de nuestro Servicio) antes de realizar cambios en
-                    esta
-                    Política de privacidad y le daremos la oportunidad de revisarlos antes de que entren en vigencia.
-                    Luego, si
-                    continúa utilizando el Servicio, estará sujeto a la Política de privacidad actualizada. Si no desea
-                    aceptar esta
-                    o cualquier Política de privacidad actualizada, puede eliminar su cuenta.</p>
-                <br>
-                <h1>Servicios de terceros</h1>
-                <p>Podemos mostrar, incluir o poner a disposición contenido de terceros (incluidos datos, información,
-                    aplicaciones
-                    y otros servicios de productos) o proporcionar enlaces a sitios web o servicios de terceros
-                    ("Servicios de
-                    terceros").</p>
-                <p>Usted reconoce y acepta que VED Seguros Generales no será responsable de ningún Servicio de terceros,
-                    incluida su
-                    precisión, integridad, puntualidad, validez, cumplimiento de los derechos de autor, legalidad,
-                    decencia, calidad
-                    o cualquier otro aspecto de los mismos. VED Seguros Generales no asume ni tendrá ninguna obligación
-                    o
-                    responsabilidad ante usted o cualquier otra persona o entidad por los Servicios de terceros.</p>
-                <p>Los Servicios de terceros y los enlaces a los mismos se brindan únicamente para su conveniencia y
-                    usted accede a
-                    ellos y los usa completamente bajo su propio riesgo y sujeto a los términos y condiciones de dichos
-                    terceros.
-                </p>
-                <br>
-                <h1>Tecnologías de Seguimiento</h1>
-                <ul style="margin-left: 10px;">
-                    <br>
-                    <li>
-                        Cookies
-                        <br>
-                        <br>
-                        <p>Usamos Cookies para mejorar el rendimiento y la funcionalidad de nuestra plataforma, pero no
-                            son
-                            esenciales para su uso. Sin embargo, sin estas cookies, es posible que ciertas funciones,
-                            como los
-                            videos, no estén disponibles o se le solicitará que ingrese sus datos de inicio de sesión
-                            cada vez que
-                            visite la plataforma, ya que no podríamos recordar que había iniciado sesión anteriormente.
-                        </p>
-                    </li>
-                    <br>
-                    <li>
-                        Almacenamiento Local
-                        <br>
-                        <br>
-                        <p>El almacenamiento local, a veces conocido como almacenamiento DOM, proporciona a las
-                            aplicaciones web
-                            métodos y protocolos para almacenar datos del lado del cliente. El almacenamiento web admite
-                            el
-                            almacenamiento de datos persistente, similar a las cookies, pero con una capacidad muy
-                            mejorada y sin
-                            información almacenada en el encabezado de solicitud HTTP.</p>
-                    </li>
-                    <br>
-                </ul>
-                <br>
-
-                <a href="/" class="btn btn-primary">Volver</a>
-            </div>
-        </div>
-
-    </section>
-</body>
-<!-- FOOTER -->
+<body>
+<header>
+<div id=loader>
+<div class=loadingio-spinner-rolling-dbbyt9o1214>
+<div class=ldio-lhtc1ypfhfm>
+<div></div>
+</div>
+</div>
+</div>
 <section>
-    <footer class="py-3 my-4 d-block container">
-        <p><small>Virginia Eliana De Nardo <br>
-            Productora Asesora de Seguros Generales <br>
-            MAT: 74904 <br>
-            Consultá acerca de las coberturas, sus límites, condiciones de suscripción y exclusiones de la póliza.
-            <br>
-            Departamento de Orientación y Asistencia al asegurado <strong
-              style="text-decoration: none; color: #29abe2; font-size: 14px;"><a style="text-decoration: none;"
-                href="tel:08006668400">0800-666-8400</a></strong>
-          </small></p>
-        <div class="col-md-3 col-xs-8 mg-b">
-          <img alt="SSN" src="img/LogoSSN.svg">
-        </div>
-        <div class="border-bottom">
-          <p><strong style="color: #29abe2; font-size: 14px;"><a style="text-decoration: none;"
-                href="https://www.argentina.gob.ar/ssn" target="_blank">www.argentina.gob.ar/ssn</a></strong></p>
-          <p><small>En caso de que existiera un reclamo ante la entidad aseguradora y que el mismo no haya sido resuelto
-              o
-              haya sido desestimado, total o parcialmente, o que haya sido denegada su admisión, podrá comunicarse con
-              la&nbsp;&nbsp;Superintendencia de Seguros de la Nación por teléfono al 0800-666-8400, correo electrónico
-              a
-              <strong>consultas@ssn.gob.ar</strong> o formulario disponible en la
-              página&nbsp;<strong>www.argentina.gob.ar/ssn</strong></small></p>
-        </div>
-        <ul class="nav justify-content-center pb-3 ">
-          <li class="nav-item"><a href="tyc.html" class="nav-link px-2 text-body-secondary">Términos</a></li>
-          <li class="nav-item"><a href="privacy.html" class="nav-link px-2 text-body-secondary">Privacidad</a></li>
-          <li class="nav-item"><a href="datos.html" class="nav-link px-2 text-body-secondary">Datos</a></li>
-        </ul>
-        <ul class="nav justify-content-center pb-3 ">
-          <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/ved.segurosgenerales/"
-              target="_blank"><svg class="bi" width="24" height="24">
-                <use xlink:href="#instagram" />
-              </svg></a></li>
-        </ul>
-        <div>
-          <p><a class="badge rounded-pill text-bg-secondary" href="https://matipretz.ar/" style="text-decoration: none;"
-              target="_blank">
-              /m</strong></>
-            </a><br>
-            &copy; 2024</p>
-        </div>
-      </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="/js/loader.js"></script>
+<div class="btn-toolbar position-fixed bottom-0 end-0 mb-3 me-3 dropdown" role=toolbar>
+<a type=button class="btn btn-success py-2 d-flex align-items-center me-3" href=https://wa.me/5491134974022 target=_blank type=button>
+<svg class=bi width=1em height=1em>
+<use xlink:href=#wa />
+</svg>
+</a>
+<div class="dropdown bd-mode-toggle">
+<button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id=bd-theme type=button aria-expanded=false data-bs-toggle=dropdown aria-label="Toggle theme (auto)">
+<svg class="bi my-1 theme-icon-active" width=1em height=1em>
+<use href=#circle-half></use>
+</svg>
+<span class=visually-hidden id=bd-theme-text>Cambiar tema</span>
+</button>
+<ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby=bd-theme-text>
+<li>
+<button type=button class="dropdown-item d-flex align-items-center" data-bs-theme-value=light aria-pressed=false>
+<svg class="bi me-2 opacity-50 theme-icon" width=1em height=1em>
+<use href=#sun-fill></use>
+</svg>
+Claro
+<svg class="bi ms-auto d-none" width=1em height=1em>
+<use href=#check2></use>
+</svg>
+</button>
+</li>
+<li>
+<button type=button class="dropdown-item d-flex align-items-center" data-bs-theme-value=dark aria-pressed=false>
+<svg class="bi me-2 opacity-50 theme-icon" width=1em height=1em>
+<use href=#moon-stars-fill></use>
+</svg>
+Oscuro
+<svg class="bi ms-auto d-none" width=1em height=1em>
+<use href=#check2></use>
+</svg>
+</button>
+</li>
+<li>
+<button type=button class="dropdown-item d-flex align-items-center active" data-bs-theme-value=auto aria-pressed=true>
+<svg class="bi me-2 opacity-50 theme-icon" width=1em height=1em>
+<use href=#circle-half></use>
+</svg>
+Automático
+<svg class="bi ms-auto d-none" width=1em height=1em>
+<use href=#check2></use>
+</svg>
+</button>
+</li>
+</ul>
+</div>
+</div>
 </section>
+<svg xmlns=http://www.w3.org/2000/svg class=d-none>
+<symbol id=bootstrap viewBox="0 0 118 94">
+<title>Bootstrap</title>
+<path fill-rule=evenodd clip-rule=evenodd d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
+</path>
+</symbol>
+<symbol id=facebook viewBox="0 0 16 16">
+<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+</symbol>
+<symbol id=instagram viewBox="0 0 16 16">
+<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+</symbol>
+<symbol id=twitter viewBox="0 0 16 16">
+<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+</symbol>
+<symbol id=wa viewBox="0 0 16 16">
+<path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+</symbol>
+<symbol id=check2 viewBox="0 0 16 16">
+<path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+</symbol>
+<symbol id=circle-half viewBox="0 0 16 16">
+<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+</symbol>
+<symbol id=moon-stars-fill viewBox="0 0 16 16">
+<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+</symbol>
+<symbol id=sun-fill viewBox="0 0 16 16">
+<path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+</symbol>
+</svg>
+</header>
+<main>
+<nav class="navbar navbar-expand-md fixed-top">
+<div class="container-fluid justify-content-center">
+<a class=navbar-brand href=#>
+<h2>VED Seguros Generales</h2>
+</a>
+</div>
+</nav>
+<div class="d-flex container">
+<div class="text-left mt-5">
+<h1>Política de privacidad</h1>
+<p>Actualizado el 2024-01-06</p>
+<br>
+<br>
+<br>
+<p>VED Seguros Generales ("nosotros", "nuestro" o "nos") se compromete a proteger su privacidad. Esta
+Política de
+privacidad explica cómo VED Seguros Generales recopila, usa y divulga su información personal.</p>
+<p>Esta Política de privacidad se aplica a nuestro sitio web, https://vedasesoresdeseguros.com.ar/ y sus
+subdominios
+asociados (colectivamente, nuestro "Servicio") junto con nuestra aplicación, VED Seguros Generales.
+Al acceder o
+utilizar nuestro Servicio, usted indica que ha leído, comprendido y aceptado nuestra recopilación,
+almacenamiento, uso y divulgación de su información personal como se describe en esta Política de
+privacidad y
+en nuestros Términos de servicio.</p>
+<br>
+<h1>Definiciones y Términos clave</h1>
+<p>Para ayudar a explicar las cosas de la manera más clara posible en esta Política de privacidad, cada
+vez que se
+hace referencia a cualquiera de estos términos, se definen estrictamente como:</p>
+<ul>
+<li>Cookie: pequeña cantidad de datos generados por un sitio web y guardados por su navegador web.
+Se utiliza
+para identificar su navegador, proporcionar análisis, recordar información sobre usted, como su
+preferencia
+de idioma o información de inicio de sesión.</li>
+<li>Compañía: cuando esta política menciona "Compañía", "nosotros", "nos" o "nuestro", se refiere a
+VED Seguros
+Generales, que es responsable de su información en virtud de esta Política de privacidad.</li>
+<li>Plataforma: sitio web de Internet, aplicación web o aplicación digital de cara al público de VED
+Seguros
+Generales.</li>
+<li>País: donde se encuentran VED Seguros Generales o los propietarios / fundadores de VED Seguros
+Generales, en
+este caso es Argentina</li>
+<li>Cliente: se refiere a la empresa, organización o persona que se registra para utilizar el
+Servicio VED
+Seguros Generales para gestionar las relaciones con sus consumidores o usuarios del servicio.
+</li>
+<li>Dispositivo: cualquier dispositivo conectado a Internet, como un teléfono, tablet, computadora o
+cualquier
+otro dispositivo que se pueda usar para visitar VED Seguros Generales y usar los servicios.</li>
+<li>Dirección IP: a cada dispositivo conectado a Internet se le asigna un número conocido como
+dirección de
+protocolo de Internet (IP). Estos números generalmente se asignan en bloques geográficos. A
+menudo, se puede
+utilizar una dirección IP para identificar la ubicación desde la que un dispositivo se conecta a
+Internet.
+</li>
+<li>Personal: se refiere a aquellas personas que son empleadas por VED Seguros Generales o están
+bajo contrato
+para realizar un servicio en nombre de una de las partes.</li>
+<li>Datos personales: cualquier información que directa, indirectamente o en conexión con otra
+información,
+incluido un número de identificación personal, permita la identificación de una persona física.
+</li>
+<li>Servicio: se refiere al servicio brindado por VED Seguros Generales como se describe en los
+términos
+relativos (si están disponibles) y en esta plataforma.</li>
+<li>Terceros: se refiere a anunciantes, patrocinadores de concursos, socios promocionales y de
+marketing, y
+otros que brindan nuestro contenido o cuyos productos o servicios que creemos que pueden
+interesarle.</li>
+<li>Sitio web: el sitio de VED Seguros Generales, al que se puede acceder a través de esta URL:
+https://vedasesoresdeseguros.com.ar/</li>
+<li>Usted: una persona o entidad que está registrada con VED Seguros Generales para utilizar los
+Servicios.</li>
+</ul>
+<br>
+<h1>Información recopilada automáticamente</h1>
+<p>Existe cierta información como su dirección de Protocolo de Internet (IP) y / o las características
+del navegador
+y del dispositivo, que se recopila automáticamente cuando visita nuestra plataforma. Esta
+información se puede
+utilizar para conectar su computadora a Internet. Otra información recopilada automáticamente podría
+ser un
+inicio de sesión, dirección de correo electrónico, contraseña, información de la computadora y la
+conexión, como
+los tipos y versiones de complementos del navegador y la configuración de la zona horaria, los
+sistemas
+operativos y las plataformas, el historial de compras (a veces agregamos información similar de
+otros usuarios),
+el flujo de clics completo del Localizador uniforme de recursos (URL) hacia, a través y desde
+nuestro sitio web
+que puede incluir la fecha y la hora; número de cookie; partes del sitio que vio o buscó; y el
+número de
+teléfono que utilizó para llamar a nuestro Servicio de atención al cliente. También podemos utilizar
+datos del
+navegador como cookies, cookies Flash (también conocidas como objetos compartidos locales Flash) o
+datos
+similares en ciertas partes de nuestro sitio web para la prevención del fraude y otros fines.
+Durante sus
+visitas, podemos utilizar herramientas de software como JavaScript para medir y recopilar
+información de la
+sesión, incluidos los tiempos de respuesta de la página, los errores de descarga, la duración de las
+visitas a
+determinadas páginas, la información de interacción de la página (como el desplazamiento, los clics
+y el
+desplazamiento del mouse) y métodos utilizados para navegar fuera de la página. También podemos
+recopilar
+información técnica para ayudarnos a identificar su dispositivo con fines de prevención y
+diagnóstico de fraude.
+</p>
+<p>Recopilamos automáticamente cierta información cuando visita, usa o navega por la plataforma. Esta
+información no
+revela su identidad específica (como su nombre o información de contacto), pero puede incluir
+información de uso
+y dispositivo, como su dirección IP, navegador y características del dispositivo, sistema operativo,
+preferencias de idioma, URL de referencia, nombre del dispositivo, país, ubicación. , información
+sobre quién y
+cuándo utiliza nuestra información y otra información técnica. Esta información es principalmente
+necesaria para
+mantener la seguridad y el funcionamiento de nuestra plataforma, y para nuestros fines de análisis e
+informes
+internos.</p>
+<br>
+<h1>Venta de Negocio</h1>
+<p>Nos reservamos el derecho de transferir información a un tercero en el caso de una venta, fusión u
+otra
+transferencia de todos o sustancialmente todos los activos de VED Seguros Generales o cualquiera de
+sus
+afiliadas corporativas (como se define en este documento), o la porción de VED Seguros Generales o
+cualquiera de
+sus Afiliadas corporativas con las que se relaciona el Servicio, o en el caso de que discontinuemos
+nuestro
+negocio o presentemos una petición o hayamos presentado una petición contra nosotros en caso de
+quiebra,
+reorganización o procedimiento similar, siempre que el el tercero acepte adherirse a los términos de
+esta
+Política de privacidad.</p>
+<br>
+<h1>Afiliados</h1>
+<p>Podemos divulgar información (incluida la información personal) sobre usted a nuestros afiliados
+corporativos.
+Para los propósitos de esta Política de Privacidad, "Afiliado Corporativo" significa cualquier
+persona o entidad
+que directa o indirectamente controla, está controlada por o está bajo control común con VED Seguros
+Generales,
+ya sea por propiedad o de otra manera. Cualquier información relacionada con usted que
+proporcionemos a nuestros
+afiliados corporativos será tratada por dichos afiliados corporativos de acuerdo con los términos de
+esta
+política de privacidad.</p>
+<br>
+<h1>Ley que Rige</h1>
+<p>Esta Política de privacidad se rige por las leyes de Argentina sin tener en cuenta su disposición
+sobre conflicto
+de leyes. Usted acepta la jurisdicción exclusiva de los tribunales en relación con cualquier acción
+o disputa
+que surja entre las partes en virtud de esta Política de privacidad o en relación con ella, excepto
+aquellas
+personas que puedan tener derecho a presentar reclamaciones en virtud del Escudo de privacidad o el
+marco
+suizo-estadounidense.</p>
+<p>Las leyes de Argentina, excluyendo sus conflictos de leyes, regirán este Acuerdo y su uso de la
+plataforma. Su uso
+de la plataforma también puede estar sujeto a otras leyes locales, estatales, nacionales o
+internacionales.</p>
+<p>Al usar VED Seguros Generales o comunicarse con nosotros directamente, significa que acepta esta
+Política de
+privacidad. Si no está de acuerdo con esta Política de privacidad, no debe interactuar con nuestro
+sitio web ni
+utilizar nuestros servicios. El uso continuo del sitio web, la interacción directa con nosotros o
+después de la
+publicación de cambios en esta Política de privacidad que no afecten significativamente el uso o
+divulgación de
+su información personal significará que acepta esos cambios.</p>
+<br>
+<h1>Tu consentimiento</h1>
+<p>Hemos actualizado nuestra Política de privacidad para brindarle total transparencia sobre lo que se
+establece
+cuando visita nuestro sitio y cómo se utiliza. Al utilizar nuestra plataforma, registrar una cuenta
+o realizar
+una compra, por la presente acepta nuestra Política de privacidad y acepta sus términos.</p>
+<br>
+<h1>Enlaces a otros Sitios Web</h1>
+<p>Esta Política de privacidad se aplica solo a los Servicios. Los Servicios pueden contener enlaces a
+otros sitios
+web que VED Seguros Generales no opera ni controla. No somos responsables por el contenido, la
+precisión o las
+opiniones expresadas en dichos sitios web, y dichos sitios web no son investigados, monitoreados o
+verificados
+por nuestra precisión o integridad. Recuerde que cuando utiliza un enlace para ir desde los
+Servicios a otro
+sitio web, nuestra Política de privacidad deja de estar en vigor. Su navegación e interacción en
+cualquier otro
+sitio web, incluidos aquellos que tienen un enlace en nuestra plataforma, están sujetos a las
+propias reglas y
+políticas de ese sitio web. Dichos terceros pueden utilizar sus propias cookies u otros métodos para
+recopilar
+información sobre usted.</p>
+<br>
+<h1>Cookies</h1>
+<p>VED Seguros Generales utiliza "cookies" para identificar las áreas de nuestro sitio web que ha
+visitado. Una
+cookie es una pequeña porción de datos que su navegador web almacena en su computadora o dispositivo
+móvil.
+Usamos cookies para mejorar el rendimiento y la funcionalidad de nuestra plataforma, pero no son
+esenciales para
+su uso. Sin embargo, sin estas cookies, es posible que ciertas funciones, como los videos, no estén
+disponibles
+o se le solicitará que ingrese sus datos de inicio de sesión cada vez que visite la plataforma, ya
+que no
+podríamos recordar que había iniciado sesión anteriormente. La mayoría de los navegadores web se
+pueden
+configurar para desactivar el uso de cookies. Sin embargo, si desactiva las cookies, es posible que
+no pueda
+acceder a la funcionalidad de nuestro sitio web correctamente o en absoluto. Nunca colocamos
+información de
+identificación personal en cookies.</p>
+<br>
+<h1>Bloquear y deshabilitar Cookies y tecnologías similares</h1>
+<p>Donde sea que se encuentre, también puede configurar su navegador para bloquear cookies y tecnologías
+similares,
+pero esta acción puede bloquear nuestras cookies esenciales e impedir que nuestro sitio web funcione
+correctamente, y es posible que no pueda utilizar todas sus funciones y servicios por completo.
+También debe
+tener en cuenta que también puede perder información guardada (por ejemplo, detalles de inicio de
+sesión
+guardados, preferencias del sitio) si bloquea las cookies en su navegador. Los distintos navegadores
+ponen a su
+disposición distintos controles. Deshabilitar una cookie o una categoría de cookie no elimina la
+cookie de su
+navegador, deberá hacerlo usted mismo desde su navegador, debe visitar el menú de ayuda de su
+navegador para
+obtener más información.</p>
+<br>
+<h1>Privacidad de los Niños</h1>
+<p>No nos dirigimos a ninguna persona menor de 13 años. No recopilamos información de identificación
+personal de
+ninguna persona menor de 13 años. Si usted es padre o tutor y sabe que su hijo nos ha proporcionado
+Datos
+personales, comuníquese con Nos. Si nos damos cuenta de que hemos recopilado datos personales de
+cualquier
+persona menor de 13 años sin la verificación del consentimiento de los padres, tomamos medidas para
+eliminar esa
+información de nuestros servidores.</p>
+<br>
+<h1>Cambios en nuestra Política de Privacidad</h1>
+<p>Podemos cambiar nuestro Servicio y nuestras políticas, y es posible que debamos realizar cambios en
+esta Política
+de privacidad para que reflejen con precisión nuestro Servicio y nuestras políticas. A menos que la
+ley exija lo
+contrario, le notificaremos (por ejemplo, a través de nuestro Servicio) antes de realizar cambios en
+esta
+Política de privacidad y le daremos la oportunidad de revisarlos antes de que entren en vigencia.
+Luego, si
+continúa utilizando el Servicio, estará sujeto a la Política de privacidad actualizada. Si no desea
+aceptar esta
+o cualquier Política de privacidad actualizada, puede eliminar su cuenta.</p>
+<br>
+<h1>Servicios de terceros</h1>
+<p>Podemos mostrar, incluir o poner a disposición contenido de terceros (incluidos datos, información,
+aplicaciones
+y otros servicios de productos) o proporcionar enlaces a sitios web o servicios de terceros
+("Servicios de
+terceros").</p>
+<p>Usted reconoce y acepta que VED Seguros Generales no será responsable de ningún Servicio de terceros,
+incluida su
+precisión, integridad, puntualidad, validez, cumplimiento de los derechos de autor, legalidad,
+decencia, calidad
+o cualquier otro aspecto de los mismos. VED Seguros Generales no asume ni tendrá ninguna obligación
+o
+responsabilidad ante usted o cualquier otra persona o entidad por los Servicios de terceros.</p>
+<p>Los Servicios de terceros y los enlaces a los mismos se brindan únicamente para su conveniencia y
+usted accede a
+ellos y los usa completamente bajo su propio riesgo y sujeto a los términos y condiciones de dichos
+terceros.
+</p>
+<br>
+<h1>Tecnologías de Seguimiento</h1>
+<ul style=margin-left:10px>
+<br>
+<li>
+Cookies
+<br>
+<br>
+<p>Usamos Cookies para mejorar el rendimiento y la funcionalidad de nuestra plataforma, pero no
+son
+esenciales para su uso. Sin embargo, sin estas cookies, es posible que ciertas funciones,
+como los
+videos, no estén disponibles o se le solicitará que ingrese sus datos de inicio de sesión
+cada vez que
+visite la plataforma, ya que no podríamos recordar que había iniciado sesión anteriormente.
+</p>
+</li>
+<br>
+<li>
+Almacenamiento Local
+<br>
+<br>
+<p>El almacenamiento local, a veces conocido como almacenamiento DOM, proporciona a las
+aplicaciones web
+métodos y protocolos para almacenar datos del lado del cliente. El almacenamiento web admite
+el
+almacenamiento de datos persistente, similar a las cookies, pero con una capacidad muy
+mejorada y sin
+información almacenada en el encabezado de solicitud HTTP.</p>
+</li>
+<br>
+</ul>
+<br>
+<a href=/ class="btn btn-primary">Volver</a>
+</div>
+</div>
+</main>
+</body>
+<footer class="py-3 my-4 d-block container">
+<hr class=featurette-divider>
+<p><small>Virginia Eliana De Nardo <br>
+Productora Asesora de Seguros Generales <br>
+MAT: 74904 <br>
+Consultá acerca de las coberturas, sus límites, condiciones de suscripción y exclusiones de la póliza.
+<br>
+Departamento de Orientación y Asistencia al asegurado <strong style=text-decoration:none;color:#29abe2;font-size:14px><a style=text-decoration:none href=tel:08006668400>0800-666-8400</a></strong>
+</small></p>
+<div class="col-md-3 col-xs-8 mg-b">
+<img alt=SSN src=img/LogoSSN.svg>
+</div>
+<div>
+<p><strong style=color:#29abe2;font-size:14px><a style=text-decoration:none href=https://www.argentina.gob.ar/ssn target=_blank>www.argentina.gob.ar/ssn</a></strong></p>
+<p><small>En caso de que existiera un reclamo ante la entidad aseguradora y que el mismo no haya sido resuelto
+o
+haya sido desestimado, total o parcialmente, o que haya sido denegada su admisión, podrá comunicarse con
+la&nbsp;&nbsp;Superintendencia de Seguros de la Nación por teléfono al 0800-666-8400, correo electrónico
+a
+<strong>consultas@ssn.gob.ar</strong> o formulario disponible en la
+página&nbsp;<strong>www.argentina.gob.ar/ssn</strong></small></p>
+</div>
+<hr class=featurette-divider>
+<ul class="nav justify-content-center pb-3">
+<li class=nav-item><a href=tyc.html class="nav-link px-2 text-body-secondary">Términos</a></li>
+<li class=nav-item><a href=privacy.html class="nav-link px-2 text-body-secondary">Privacidad</a></li>
+<li class=nav-item><a href=datos.html class="nav-link px-2 text-body-secondary">Datos</a></li>
+</ul>
+<ul class="nav justify-content-center pb-3">
+<li class=ms-3><a class=text-body-secondary href=https://www.instagram.com/ved.segurosgenerales/ target=_blank><svg class=bi width=24 height=24>
+<use xlink:href=#instagram />
+</svg></a></li>
+</ul>
+<div>
+<p><a class="badge rounded-pill text-bg-secondary" href=https://matipretz.ar/ style=text-decoration:none target=_blank>
+/m</strong></->
+</a><br>
+&copy; 2024</p>
+</div>
+</footer>
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js integrity=sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL crossorigin=anonymous></script>
+<script src=/js/loader.js></script>
+</body>
 </html>
